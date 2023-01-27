@@ -1,5 +1,0 @@
-{
-  "haskell.toolchain": {
-    "ghc": "8.10.7"
-  },
-}

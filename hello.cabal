@@ -33,6 +33,10 @@ library
   ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints
   build-depends:
       base >=4.7 && <5
+    , postgresql-typed
+    , servant
+    , text
+    , vector
   default-language: Haskell2010
 
 executable hello-exe
@@ -45,6 +49,10 @@ executable hello-exe
   build-depends:
       base >=4.7 && <5
     , hello
+    , postgresql-typed
+    , servant
+    , text
+    , vector
   default-language: Haskell2010
 
 test-suite hello-test
@@ -58,4 +66,8 @@ test-suite hello-test
   build-depends:
       base >=4.7 && <5
     , hello
+    , postgresql-typed
+    , servant
+    , text
+    , vector
   default-language: Haskell2010
